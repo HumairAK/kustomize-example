@@ -5,6 +5,3 @@ resources:
   - ../../base
 patchesStrategicMerge:
   - replica_count.yaml
-configMapGenerator:
-  - files:
-      - configs/myconfig.yaml
